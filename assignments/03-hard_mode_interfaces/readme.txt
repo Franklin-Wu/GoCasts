@@ -15,3 +15,18 @@ Questions for this Assignment
 
 1. What interfaces does the 'File' type implement?
 
+'File' implements the following interfaces:
+    io.Reader
+    io.Writer
+    io.Closer
+    io.Seeker
+    io.ReadWriter
+    io.ReadCloser
+    io.WriteCloser
+    io.ReadWriteCloser
+    io.ReadSeeker
+    io.WriteSeeker
+    io.ReadWriteSeeker
+    io.ReaderAt
+    io.WriterAt
+I don't know if this is an exhaustive list. How does one answer this question in general: What interfaces does type 'X' implement?
